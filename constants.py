@@ -3,7 +3,8 @@ import math
 import matplotlib
 
 # Set device (default cuda) to run this project, and set default tensor type to float64.
-device = torch.device('cuda:0')
+# device = torch.device('cuda:0')
+device = torch.device('cpu')
 torch.set_default_dtype(torch.float64)
 
 ## Constants to be used in the pipeline
