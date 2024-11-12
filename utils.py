@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.io as sio
 import os
-from constants import *
+from .constants import *
 import tqdm
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
